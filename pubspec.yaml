@@ -1,0 +1,34 @@
+name: trivial
+description: "Trivial CiberSeguretat"
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+  audioplayers: ^6.0.0
+  csv: ^6.0.0
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  webview_flutter: ^4.13.1
+  go_router: ^17.2.3
+  url_launcher: ^6.3.2
+  image: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/data/

@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"232","Source":"Form","Properties":{"$Name":"CiberCredits","$Type":"Form","$Version":"31","ActionBar":"True","AppName":"TrivialCiberseguretat","Title":"CiberCredits","Uuid":"0","$Components":[{"$Name":"VisorWeb1","$Type":"WebViewer","$Version":"10","Height":"-1090","Width":"-2","HomeUrl":"https:\/\/prosselloe.wordpress.com\/?p=11787","Uuid":"-873521020"},{"$Name":"BarraMenu","$Type":"HorizontalArrangement","$Version":"4","AlignHorizontal":"3","Height":"-1010","Width":"-2","Uuid":"-1208361956","$Components":[{"$Name":"BtnCiberSeguretat","$Type":"Button","$Version":"7","Text":"CiberSeguretat","Uuid":"-1639255531"},{"$Name":"BtnCiberTauler","$Type":"Button","$Version":"7","Text":"CiberTauler","Uuid":"377515472"},{"$Name":"BtnCiberDau","$Type":"Button","$Version":"7","Text":"CiberDau","Uuid":"-166756953"},{"$Name":"BtnCiberPunts","$Type":"Button","$Version":"7","Text":"CiberPunts","Uuid":"-1206335383"}]}]}}
+|#
