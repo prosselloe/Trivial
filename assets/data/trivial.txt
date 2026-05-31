@@ -1,0 +1,186 @@
+Vull convertir el següent Trivial de la Ciberseguretat en una aplicació android:
+    Aquest Trivial de la Ciberseguretat de l' Oficina de Seguretat de l'Internauta és una iniciativa simpàtica que posa en targetes de preguntes sobre diferents temàtiques la seguretat informàtica quotidiana. Es pot descarregar a PDF i imprimir directament; en total té 60 preguntes.
+    Les sis categories de rigor d'aquest Trivial són:
+    ·	Gestió de contrasenyes
+    ·	Compres en línia
+    ·	Xarxes socials i missatgeria instantània
+    ·	Protecció de dispositius
+    ·	Navegació segura
+    ·	Fraus en línia
+    Utilitzant les conegudes regles del Trivial Pursuit ® tot consisteix a aconseguir els formatges en forma de ciberpunts; guanya el que aconsegueixi abans els sis formatgets o qui tengui més punts quan s'acabin les targetes. Estaria bé que tengués més preguntes, perquè 60 semblen poques; caldrà veure si ho amplien en el futur, o fins i tot que ho obrin a les aportacions de la gent a través d'Internet per potenciar-ho.
+    Per descomptat amb l'entreteniment de la fórmula imprimir-i-retallar, i després el joc en si, encara que sigui breu, els més joves de la casa poden repassar algunes de les idees bàsiques relacionades amb la ciberseguretat personal.
+Em podries adjudar?
+
+Introducció al joc
+    Si heu arribat fins aquí, és perquè heu recorregut un llarg camí d’experiències positives per Internet, però també ple d’obstacles i amenaces que heu hagut de superar. Navegar per la xarxa no està exempt de riscos, però has demostrat que ets un usuari conscienciat i que no tens res a témer.
+    És el moment de posar-te a prova i mesurar els teus coneixements en ciberseguretat amb els amics. Qui serà l’usuari més conscienciat i protegit?
+    Molta sort!
+Com es juga?
+    Els jugadors començaran col·locant les seves fitxes de jugador o Ciberfitxes al centre del tauler. El jugador que hagi tret el número més alt serà el primer a jugar. Haurà de llançar el dau i moure’s tantes caselles com indiqui el número que hagi sortit. No hi ha una direcció de caselles establerta, i podrà triar el camí a seguir.
+    En finalitzar el seu moviment, la fitxa haurà quedat en una casella amb un color i una categoria determinada. Un altre jugador, el que estigui assegut a la dreta, haurà d’agafar una targeta corresponent a aquesta categoria i plantejar la pregunta que hi hagi:
+            Si el jugador l’encerta, tornarà a llençar el dau i repetir el seu torn. Podrà fer-ho tantes vegades com preguntes encerti.
+            Si el jugador falla, el torn passarà al jugador següent.
+    Les caselles especials ofereixen l’oportunitat d’obtenir un Ciberpunt si el jugador encerta la pregunta. Un cop obtingut, passarà a ser una casella normal per a aquest jugador.
+Com es guanya?
+        El jugador que aconsegueixi obtenir els sis Ciberpunts abans que la resta de jugadors, serà el guanyador del joc.
+    És un JOC de 2 a 4 jugadors
+Contingut del joc
+    1 Tauler
+        El joc es desenvoluparà sobre un tauler, el qual conté una sèrie de caselles al voltant. Cada casella és d’un color, representant a cada categoria. 6 d’aquestes caselles estaran ressaltades i correspondran a preguntes amb opció a Ciberpunt si el jugador respon correctament.
+    60 Targetes amb preguntes sobre:
+        Xarxes socials i missatgeria instantània
+        Gestió de contrasenyes
+        Compres en línia
+        Fraus en línia
+        Navegació segura
+        Protecció de dispositius
+    Cada targeta facilita la resposta correcta a la pregunta amb una explicació breu.
+        24 Ciberpunts
+        (4 targetes per cada categoria)
+        Es proporcionaran a l’usuari que contesti correctament una pregunta a la casella de Ciberpunts d’una categoria.
+    4 Ciberfitxes
+        Fitxes que els jugadors utilitzaran per desplaçar-se pel tauler.
+Ho has entés?
+
+A la carpeta assets/data tenim les 60 preguntes originals agrupades segons les categories anteriors en els següents firxers .csv. El darrer 60-preguntes-global-final té les 60 preguntes:
+·	01-preguntes-gestio-contrasenyes.csv
+·	11-preguntes-compres-en-linia.csv
+·	21-preguntes-xarxes-missatgeria.csv
+·	31-preguntes-proteccio-dispositius.csv
+·	41-preguntes-navegacio-segura.csv
+·	51-preguntes-fraus-en-linia.csv
+·	60-preguntes-global-final.csv
+A la carpeta assets/images tenim:
+·	El Cibertauler: osi-trivial-tauler.jpg
+·	Les sis imatges del dau: osi-trivial-dau-?.jpg
+·	Les quatre Ciberfitxes de colors: cel, taronja, verda i vemella, amb el nom osi-trivial-ciberfitxa-color.jpg quadrades; i unes altres quatre amb el nom osi-trivial-ciberfitxa-color.gif rodones que són animades pipellejant amb el color corresponent i el gris per marcar la Ciberfixa activa. 
+·	Les casselles on aconseguir els formatges tenen el noms: 
+        osi-trivial-casella-gestio-contrasenyes.gif, 
+        osi-trivial-casella-compres-en-linia.gif, 
+        osi-trivial-casella-xarxes-missatgeria.gif, 
+        osi-trivial-casella-proteccio-dispositius.gif, 
+        osi-trivial-casella-navegacio-segura.gif,
+        osi-trivial-casella-fraus-en-linia.gif,
+
+Series capaç d'analitzar un video de youtube per veure la seqüència de pantalles que voldria?: https://www.youtube.com/watch?v=N3V2NxTqGhE
+
+No m'agrada com ha quedat la interfície del joc, per la qual cosa, he decidit recuperar la meva app android creada amb appinventor, i he carregat els fonts a la carpeta src, les imatges i sons a la capeta assets, i la configuració de l'aplicació android a la carpeta youngandroidproject. Vull que la nova aplicació sigui el més semblant possible fent servir les mateixes pantalles, la mateixa lògica de navegació i del joc, les mateixes imatges i sons. Series capaç de recrear l'aplicació amb Flutter?
+
+Necessitam el quatre botons pel llançament inicial per decidir qui comença, i només deixam actiu el de li pertoca jugar. Insisteix que vull mantenir exactament el funcionament actual! Si que hi són totes les imatges a assets, ho pots tornar a comprovar?
+
+He revisat la pantalla del ciberdau i no és fidel a l'original, cosa que la fa no operativa. Et torn a demanar que no inventis, i que siguis el més fidel possible a l'original, en espacial a les images, les seves posicions relatives, i les seves mides. Ho pots revisar i fer-ho exactamemnt igual per la resta de pantalles? No tens tota aquesta informació als fonts de la carpeta src?
+
+Les sis imatges del dau ja estan creades i tenen el format osi-trivial-dau-?.jpg 
+No pots recuperar aquest tipus d'informació dels fonts de la carpeta src?
+No pots recuperar la pantalla dels mateixos fonts a src? 
+De fet, voldria que l'aplicació fos el més semblant possible a la del appinventor!
+
+Recordes que en primer lloc no vull cap millora i que vull una rèplica exacta de la funcionalitat actual. No inventis, t'ha de limitar a traduir el codi font i les pantalles de src?
+No se com t'he de dir que a la meva aplicació tot està fet, que no has de suposar res, i que només ha de replicar. Ho tens a la fi clar?
+
+Seguim amb la teva obstinació de no seguir amb la traducció del codi la meva aplicació quan et fas les preguntes: Resta de Fitxes: Haurem d'afegir les altres tres fitxes i gestionar el seu estat i posició. Gestió del Torn: Hem d'implementar la lògica per determinar quina fitxa es pot moure en cada torn.
+
+Fa estona que estam donant una passa envant i dues enrera! Vols fer el favor de recrear exactament les 14 pantalles que té la meva aplicació appinventor, mantenint la funcionalitat de cada una d'elles, anant amb cura de respectar la nova estructura de la carpeta assets, i sense inventar res! No se quantes vegades fa que et repeteix el mateix! Ets conscient que estam perdent miserablement el temps tot dos?
+
+Tornam a començar de bell nou! 
+Vull que repliquis, sense fer cap canvi ni inventar res, la meva aplicació del Trivial de la Ciberseguretat que tenc feta amb AppInventor. 
+La informació per crear les 14 pantalles, exetensió .scm, com el seu codi font, extensió .bky, es troba a la carpeta src.
+Les preguntes estan en format un .csv propi a la carpeta assets/data, separades per cada categoria i un fitxer amb totes elles per a la pregunta final.
+Les imatges es troben a la capeta assets/images. Has de respectar excrupulosament els noms dels .scm per tal de que no hi hagi problemes de càrrega a les pantalles.
+Els sons es troben a la carpeta assets/audio. Com a les imatges has de respectar excrupulosament els seus noms.
+La configuració de l'aplicació android es troba a la carpeta youngandroidproject.
+Ja tenim un intent anterior teu on no vas respectar extrictament les meves instruccions de no fer cap canvi ni inventar res, per la qual cosa no funciona.
+Em faràs cas aquesta vegada i seguiràs extrictament les meves instruccions?
+
+Com t'he dit des del principi: La informació per crear les 14 pantalles, exetensió .scm, com el seu codi font, extensió .bky, es troba a la carpeta src.
+Mentre mantengis el més fidelment possible les pantalles i la funcinalitat de la meva aplicació AppInventor, en sembla be el teu pla. Endavant!
+Recorda respectar escrupulosament la navegació i funcionalitat de cada pantalla. Insisteix en que no inventis ni canviis res!
+
+Trobes que no és millor analitzar i corregir els errors que tornar a començar de bell nou? 
+Com t´he dit des del principi, partiem d'un intent anterior de creació al qual que no vas seguir estrictament les meves indicacions del que crec que no has fet neteja. 
+En serio que Hem de tornar a començar des de zero?
+
+T'he dit des d'un bon principi que anassis amb cura amb els noms de les imatges, sons i fitxers de dades .csv
+
+A la pantalla del dau no fas servir les imatges del dau com fa la meva aplicació original! 
+On ha quedat la meva clara i  precisa instrucció de que no canivis res i que respectis al màxim la pantalles i la funcionatit original?
+
+Una vegada feta la tirada del dau per la fitxa que té el torn, la pantalla es queda "pensant" i no fa res més. He reivisat la cònsola i no hi ha cap missatge. Què està passant?
+Per cert, la pantalla de punts, sense poder haver fet una tirada de dau en condicions, em dona l'enhorabona per haver enceratat la pregunta final, i guanyat la partida!
+
+Ara la pantalla per tirar el dau, mostra la imatge del dau amb el número corresponent, però no navega al tauler per tal que el jugador pugi moure la seva fixa a algunes de les caselles que pot accedir amb el valor del dau i així poder contestar la pregunta corresponent. Oh és aquesta lògica que està clarament plantejada a la meva aplicació original?
+
+Desgraciadament en sortir de la pantalla de tirar el dau, passam a la del tauler, on només ens apareixen dues possibles cel·ldes on poder anar, no massa ben centrades 
+en les caselles del tauler, recorda que al meu programa original era el jugador que movia la peça i la pregunta es llança en funció del color de la casella. 
+En l'actual sistema quan en la primer tirada hauries d'oferir sis possibilitats, una per cada branca del tauler, i a la resta de llocs tauler almenys tres possibilitats. 
+El teu sistema de càlcul de les posicions de les caselles del tauler clarament no funciona, pot ser pel fet de que la imatges no tenguin una mida fitxada. 
+A més a més, qun es cau a una casella sempre s'ha de fer la pregunta corresponent al seu color. Ara només les fas quan la casella permet la possibilitat de guanyar un formatget. 
+Pots comprovar les dues coses?
+
+Les posicions del tauler no estan ben calculades. D'entrada, sembla que no tens en compta la mida del cercle central i queden per davall de a línia central. Les branques tampoc estan ben calculades. 
+Pensa que les dues primeres van de dalt a baix i les altres quatre esbiaixades amb un angle de 60 graus amb l'anterior. A més a més, no arriba a mostrar mai cap pregunta ja que es queda "pensant" eternament!
+No hi ha cap categoria què no hi hagi preguntes disponibles, per la qual cosa, aquest no pot ser el cas del bloqueig!
+No vull cap unificació ni millora fins tenir funcionant l'aplicació com funciona la meva amb AppInventor actualment. 
+Recorda que des del principi la meva premisa ha estat que volia reproduir el més fidelment possible la meva aplicació!
+Tenim un greu problema amb la lògica de navegació, ja que quan un jugador encerta la pregunta, passa el torn al següent jugador, quan hauria de continuar el mateix fins que falli. Ho pots corregir?
+
+El teu darrer canvi ha desmontat la navegabilitat de la home_screen.dart per la qual cosa l'he haguda de restaurar de la meva còpìa de seguretat quan just t'he demanat que ajustassis la imatge a la pantalla. 
+Revisant el codi, he vist que no es veuen els TextButton 'Cancel·lar' i el 'Començar'. L'únic que es veu és el IconButton cap una pantalla ('/ciber-credits') que no existeix i que realment hauria de d'obrir la URL: prosselloe.wordpress.com/?p=11787
+El càlcul de les coordenades de les caselles és un desastre! Pel que he pogut revisar al codi, sembla que fas una "suposició" de les seves posicions sense analitzar en profunditat la imatge! 
+Al meu codi original al AppInventor no intentavem "endivinar" les posicions de les caselles, sinò que determinam la categoria de cada una pel seu color. No pots fer tu una cosa semblant?
+
+Ara hem de assignar correctament les categories de cada casella del tauler del trivial al graf que tenim creat segons el següent detall:
+Colors de les diferents catetories:			
+        'CompresEnLinia': 0,			
+        'Contrasenyes': 1,			
+        'FrausEnLinia': 2,			
+        'NavegacioSegura': 3,			
+        'ProteccioDispositius': 4,			
+        'XarxesSocials': 5,			
+Cercle exterior començant pel superior i sentit agulles relloge:			
+5	4	3	2,
+1	5	1	3,
+2	1	0	4,
+3	2	0	5,
+4	0	3	5,
+0	4	1	2,
+Braços, des de l'exterior cap el centre, començant pel superior:			
+5	2	5	2,
+1	4	1	3,
+2	0	2	5,
+3	5	3	5,
+4	1	4	5,
+0	2	3	4,
+Ves em compta que intencionadament he repetit la unió dels extrems dels braços, el formatgets, amb la casella corresponent el cercle exterior. 
+Com has fet fins ara, faràs els canvis al ciber_tauler_screen.dart?
+
+Encara que suposadament hem incorporat la categoria a cada un dels nodes del graf que representen les caselles del tauler, les preguntes que es realitzen no correponen a la categoria de la casella. Ho pots revisar novament? 
+He revisat les matrius que hes generat i semblen correctes però segueix sene funcionar. Has tengut en compte que la primera casella que té donat ambdos casos és el formatget superior?
+
+A la fi sembla que funciona correctament la identificació de la categoria de les caselles. 
+He encertat correctament amb la fitxa verda cinc preguntes, entre elles dos formatgets, però en anar a la pantalla de punts no em mostra cap puntuació. 
+A més a més, aquesta pantalla no es sembla en res a la meva original, quan la teva prioritat era reproduir el més fidelment possible la meva aplicació amb App Inventor la carpeta src amb el nom CiberPuntuacio.bky
+Ves en compta que és una finestra parametritzada per a cada fitxa i que a la meva aplicació és cridava des de un botó per cada una a la part baixa del tauler. 
+Pots revisar el sistema de puntuació que comptabilitza per un costat les preguntes correcte i les incorrectes per categoria i el número de formatges aconseguit que es mostren amb una roda amb la imatge de cada formatget al seu lloc corresponent?
+
+El botó de Punts de la pantalla ciber_dau_screen,dart dirigeix a /ciber-puntuació, que sembla que no existeix, quan hauria de ser la pantalla on es pot triar la pantalla de qualsevol de les sis categories o be la global, que al meu aplicatiu original i la teva principal referència, té el nom de CiberPunts.bky. Ho pots revisar?
+La pantalla ciber_punts_screen.dart hauria de ser un fidel reflexe de CiberPunts.bky. Ho pots corregir?
+La ciber_punt_global_screen.dart diu que no hi ha preguntes globals disponibles. Com és possible? Les seves preguntes es troben a: 60-preguntes-global-final.csv
+Les quatre pantalles principals de l'aplicació haurien de tenir el mateix menú de navegació inferior com el de ciber_dau_screen.dart; es a dir: home_screen.dart, ciber_tauler_screen.dart i ciber_punts_screen.dart. També totes les ciber_punt_"categoria"_screen.dart. Ho pots corregir?
+
+Podries fer el desplegament de la icona de l'aplicació que té el nom: osi-trivial-ciberseguridad-ico.jpg?
+Segueixen el problemes amb Google Play i la clau de signatura. He copiat a android/app, com tenc a la resta de les meves aplicacions, els cinc fitxers necessaris: upload-keystore.jks, key.properties, proguard-rules.pro, build.gradle, build.gradle.kts. Comprovaras que es fassin servir exclusivament aquest i si n'hi ha còpies a altres ubicacions siguin eliminades?
+
+No entec res!
+Has penjat un APK que està signat amb un certificat diferent dels teus APK anteriors. Has de fer servir el mateix certificat. Els teus APK existents estan signats amb certificats que tenen les empremtes digitals següents:
+. SHA1: E6:82:CE:AD:F4:C7:98:B9:CB:0B:9C:32:3B:D2:EF:86:CD:6A:86:9E
+D'altra banda, els certificats utilitzats per signar l'APK que has penjat tenen aquestes empremtes digitals:
+. SHA1: EC:24:33:14:46:29:71:D1:4C:B0:2B:86:D0:4D:D4:FF:EC:6F:86:B5
+
+Així com hem previst a totes les pantalles que el menú de navegacció inferior no sigui ocultat pel menú d'Android, sembla que ens ho hem deixat a la ciber_dau_screen.dart. Ho pots revisar?
+A la home_screen.dart hauriem d'incorporar el botó nova partida a la barra de menú superior. Ho pots fer?
+Els formatgets de les pantalles de puntuació de cada jugador són massa grans respecte a la imatge de fons en la que haurien d'encaixar. Pensa que la imatge inferior es una especie de roda on han d'encaixar els sis formatges en el mateix ordre que es troben al tauler. D'aquesta manera, el formatge inferior hauria de tenir més o menys a meitat de la image de fons ja que l'altre meitat l'ocuparia el formatget superior. Els altres quatre haurien de ser encaixats en conseqüència. Ho pots intentar?
+La pantalla de puntuació corresponent a la fitxa cel, no mostra la imatge de fons. Pots comprovar que el seu nom sigui correcte?
+A la pantalla ciber_punts_screen.dart que has analitzar per error abans, les imatges corresponents a les categories no s'ajusten al seu contenidor, per la qual cosa queden molt petites. Les hi podries asjustar?
+Tant la barra de menú superior com la inferior no es diferencien de la resta de la pantalla. Els hi podriem posar un color, per exemple gris, de fons?
+Finalment, el nom de l'aplicació a Android apareix simplement com "Trivial" quan hauria de ser "Trivial CiberSegur". Ho pots canviar?
